@@ -17,4 +17,7 @@ class Film {
   public function getDurata() {
     return $this->durata;
   }
+  public function getAttori() {
+    return $this->attori;
+  }
 }

@@ -1,6 +1,6 @@
 <?php 
 class Attore{
-  private $nome;
+  public $nome;
   private $cognome;
   private $dataDiNascita;
 
@@ -9,6 +9,10 @@ class Attore{
     $this->nome = $_nome;
     $this->cognome = $_cognome;
     $this->dataDiNascita = $_dataDiNascita;
+  }
+
+  public function getName() {
+    return $this->nome;
   }
 }
 
